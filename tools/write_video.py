@@ -25,7 +25,7 @@ def make_parser():
     parser.add_argument("--height",
                         default=1080)
 
-    return parser
+    return parser.parse_args()
 
 if __name__ == "__main__":
     args = make_parser()

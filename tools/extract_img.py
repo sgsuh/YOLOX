@@ -18,7 +18,7 @@ def make_parser():
     parser.add_argument("--img_root",
                         default="")
 
-    return parser
+    return parser.parse_args()
 
 
 if __name__ == "__main__":

@@ -69,7 +69,7 @@ def make_parser():
     parser.add_argument("--ckpt",
                         default="weights/yolox_s.pth")
 
-    return parser
+    return parser.parse_args()
 
 if __name__ == "__main__":
     args = make_parser()

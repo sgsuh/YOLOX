@@ -34,7 +34,7 @@ def make_parser():
     parser.add_argument("--fp16",
                         default=True)
 
-    return parser
+    return parser.parse_args()
 
 class Predictor(object):
     def __init__(

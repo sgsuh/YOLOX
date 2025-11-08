@@ -22,7 +22,7 @@ def make_parser():
     parser.add_argument("--search_fold_list",
                         default=[""])
 
-    return parser
+    return parser.parse_args()
 
 if __name__ == "__main__":
     args = make_parser()

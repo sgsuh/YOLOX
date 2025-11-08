@@ -50,7 +50,7 @@ def make_parser():
     parser.add_argument("--search_fold_list",
                         default=[""])
     
-    return parser
+    return parser.parse_args()
 
 def main():
     args = make_parser()
